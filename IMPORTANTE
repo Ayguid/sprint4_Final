@@ -1,0 +1,22 @@
+cosas importantisimas para proyecto en Laravel
+
+
+//OK, well this didn't help, after a bit of hunting I found the problem as mentioned above. To fix this, on your server in the root directory change to your public directory.//
+$ cd public
+and run:
+$ rm storage
+$ cd ..
+$ php artisan storage:link
+The [public/storage] directory has been linked.
+
+
+
+
+
+
+CLAVE PARA EL IMAGE RESIZE!!!!
+sudo apt-get install php7.2-gd
+
+
+
+
